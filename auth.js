@@ -15,7 +15,7 @@ function login(username, password) {
     }
 
     // Kiểm tra tài khoản và mật khẩu
-    return username === "admin" && password === "123";
+    return username === "admin" && password === "12345";
 }
 
 module.exports = { login };
