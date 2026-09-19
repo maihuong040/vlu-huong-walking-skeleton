@@ -3,7 +3,7 @@ const { login } = require("./auth");
 describe("Login Regression Tests", () => {
 
     test("Password is incorrect", () => {
-        expect(login("admin", "456")).toBe(false);
+        expect(login("admin", "45678")).toBe(false);
     });
 
     test("Username is empty", () => {
